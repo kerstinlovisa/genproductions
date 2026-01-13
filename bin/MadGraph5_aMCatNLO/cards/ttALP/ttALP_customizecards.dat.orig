@@ -1,0 +1,17 @@
+set param_card gsu33 0.0
+set param_card gpu33 0.1
+set param_card gsl11 0.0
+set param_card gsl22 0.0
+set param_card gsl33 0.0
+set param_card gpl11 0.0
+set param_card gpl22 0.01
+set param_card gpl33 0.0
+set param_card gsh1 0.0
+set param_card gsb 0.0
+set param_card lambda 1000000
+<<<<<<< HEAD
+set param_card MASS 54 60.0
+set param_card DECAY 54 2.000000e-16
+=======
+set param_card MASS 54 0.35
+>>>>>>> 8a49aa0829f1093d2e749252d9866dbb91e91f70
