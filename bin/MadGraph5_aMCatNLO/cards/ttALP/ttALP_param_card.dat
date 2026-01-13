@@ -35,7 +35,11 @@ BLOCK MASS #
       15 1.777000e+00 # mta
       23 9.118760e+01 # mz
       25 1.250000e+02 # mh
+<<<<<<< HEAD
       54 1.000000e+00 # my0
+=======
+      54 8.000000e+00 # my0
+>>>>>>> 8a49aa0829f1093d2e749252d9866dbb91e91f70
       1 0.000000e+00 # d : 0.0
       2 0.000000e+00 # u : 0.0
       3 0.000000e+00 # s : 0.0
@@ -140,8 +144,11 @@ BLOCK QNUMBERS 54 #  y0
       3 1 # colour rep (1: singlet, 3: triplet, 8: octet)
       4 0 # particle/antiparticle distinction (0=own anti)
 
+<<<<<<< HEAD
 ###################################
 ### INFORMATION FOR LOOP
 ####################################
 BLOCK LOOP # 
       1 91.188 # MU_R
+=======
+>>>>>>> 8a49aa0829f1093d2e749252d9866dbb91e91f70

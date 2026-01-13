@@ -79,6 +79,7 @@ make_gridpack () {
       echo $CARDSDIR/${name}_run_card.dat " does not exist!"
       if [ "${BASH_SOURCE[0]}" != "${0}" ]; then return 1; else exit 1; fi
     fi
+<<<<<<< HEAD
 
     if [ -e $CARDSDIR/${name}_madspin_card.dat ]; then
       if grep -F "Nevents_for_max_weight" $CARDSDIR/${name}_madspin_card.dat; then
@@ -87,6 +88,9 @@ make_gridpack () {
       fi
     fi
 
+=======
+    
+>>>>>>> 8a49aa0829f1093d2e749252d9866dbb91e91f70
     # avoid compute_widths in customizecards 
     if [ -e $CARDSDIR/${name}_customizecards.dat ]; then
         if grep -F "compute_widths" $CARDSDIR/${name}_customizecards.dat ; then
